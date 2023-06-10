@@ -15,6 +15,63 @@ TCP (Transmission Control Protocol)和UDP(User Datagram Protocol)协议属于传
 
 
 # 网际互联协议模型
+<table>
+    <thead>
+        <tr class="header">
+            <th>OSI七层参考模型</th>
+            <th>TCP/IP五层模型</th>
+            <th>主要协议</th>
+            <th>各层解释</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>应用层</td>
+            <td>应用层</td>
+            <td>HTTP,TFTP,NFS,WAIS,SMTP</td>
+            <td>为应用程序提供服务</td>
+        </tr>
+        <tr>
+            <td>表示层</td>
+            <td>应用层</td>
+            <td>Telnet,Rlogin,SNMP,Gopher...</td>
+            <td>数据格式转化,数据加密</td>
+        </tr>
+        <tr>
+            <td>会话层</td>
+            <td>应用层</td>
+            <td>SMTP,DNS</td>
+            <td>建立,管理和维护会话</td>
+        </tr>
+        <tr>
+            <td>传输层</td>
+            <td>传输层</td>
+            <td>TCP,UDP</td>
+            <td>建立,管理和维护端到端的连接</td>
+        </tr>
+        <tr>
+            <td>网络层</td>
+            <td>网络层</td>
+            <td>IP,ICMP,IGMP,UUCP,ARP,RARP,AKP</td>
+            <td>IP地址及路由选择</td>
+        </tr>
+        <tr>
+            <td>链路层</td>
+            <td>链路层</td>
+            <td>FDDI,Ethernet,Arpanet,PDN,SLIP,PPP</td>
+            <td>提供介质访问和链路管理</td>
+        </tr>
+        <tr>
+            <td>物理层</td>
+            <td>物理层</td>
+            <td>IEEE 802.1A,IEEE 802.2到IEEE 802.11</td>
+            <td>提供物理链路,将比特信号转换为电信号</td>
+        </tr>
+    </tbody>
+</table>
+
+![OSI网络参考模型_20230608](https://cdn.staticaly.com/gh/wilson-zhuo/pic_public@main/OSI网络参考模型_20230608.tpmpvppeodc.webp)
+
 |OSI七层参考模型|TCP/IP五层模型|主要协议|各层解释|
 |--------------|-------|-------|-----------|
 |应用层|应用层|HTTP,TFTP,NFS,WAIS,SMTP|为应用程序提供服务|
@@ -24,7 +81,7 @@ TCP (Transmission Control Protocol)和UDP(User Datagram Protocol)协议属于传
 |网络层|网络层|IP,ICMP,IGMP,UUCP,ARP,RARP,AKP|IP地址及路由选择|
 |数据链路层|链路层|FDDI,Ethernet,Arpanet,PDN,SLIP,PPP|提供介质访问和链路管理|
 |物理层|物理层|IEEE 802.1A,IEEE 802.2到IEEE 802.11|提供物理链路|
-![OSI网络参考模型_20230608](https://cdn.staticaly.com/gh/wilson-zhuo/pic_public@main/OSI网络参考模型_20230608.tpmpvppeodc.webp)
+
 ## 物理层
 作用：定义一些电器，机械，过程和规范，如集线器;  
 PDU(协议数据单元)：bit/比特  

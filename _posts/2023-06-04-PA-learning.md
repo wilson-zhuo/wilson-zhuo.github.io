@@ -4,7 +4,7 @@ title: 功率放大器学习
 subtitle: 功放
 gh-repo: NA
 gh-badge: [star, fork, follow]
-tags: [Power Amplifier]
+tags: [PowerAmplifier]
 comments: false
 ---
 * content
