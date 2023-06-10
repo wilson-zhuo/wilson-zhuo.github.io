@@ -61,3 +61,12 @@ paginate: 10
 
 plugins:
   - jekyll-paginate
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - favicon.ico
+  - unused/
